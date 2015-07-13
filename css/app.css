@@ -1,0 +1,75 @@
+body {
+  padding:10px;
+  background-image: url("../img/background.jpg");
+  /*set to scales to completely cover the entire page body*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img {
+  margin-bottom:20px;
+  border:1px solid #d3d3d3;
+  padding:10px; 
+  text-align:center;
+  box-sizing:border-box;
+}
+
+img {
+  max-height:100%;
+  max-width:100%;
+  cursor:pointer;
+}
+.container-fixed {
+  width:90%;
+  margin-left:5%;
+  text-align:center;
+}
+
+.playing {
+  border:5px solid lightblue;
+}
+
+#header {
+  background-color:rgba(255,255,255,0.2);
+  padding: 0.1em;
+}
+
+h1 {
+  font-family: 'Lucida Grande';
+  text-align: center;
+}
+
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+select {
+  
+}
+
+@media screen and (max-width: 500px) {
+    body {
+      font-size: 16px;
+      background-image: url("../img/Bmobile.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    h1{
+      color: rgb(110,110,110);
+    }
+    h3{
+      color: rgba(148,148,148,0.8);
+    }
+  }
+}
