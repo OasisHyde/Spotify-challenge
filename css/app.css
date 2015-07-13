@@ -51,8 +51,15 @@ h3 {
   text-align: center;
 }
 
-select {
+footer {
+  color:white;
+  position: fixed;
+  bottom:0px;
+  right:10px;
+  font-size: 80%;
   
+}
+
 }
 
 @media screen and (max-width: 500px) {
